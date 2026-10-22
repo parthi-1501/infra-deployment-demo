@@ -17,7 +17,7 @@ resource "aws_subnet" "infra-subnet" {
   }
 }
 
-output "subnet_cidr" {
+output "subnet-id" {
   value = aws_subnet.infra-subnet.id
   description = "The ID of the created subnet to be used for launching EC2 instances"
 }
