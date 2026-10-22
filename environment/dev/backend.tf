@@ -10,7 +10,6 @@ terraform {
     bucket = "parthi-jenkins-infra01"
     key    = "lock-key/terraform.tfstate"
     region = "us-east-1"
-    use_lockfile = true
   }
 }
 
